@@ -1,32 +1,248 @@
-.App {
-  text-align: center;
+/* FONTS 
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+/* COLORS 
+Blue = 40, 174, 228; HEX #28AEE4
+Yellow = 255, 192, 18; HEX #ffc012
+Green = 146, 208, 80; HEX #92D050
+*/
+.blue {
+  color: #28AEE4;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+
+/* Test Navigation */
+
+ul, .navlink {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  display: inline;
+  overflow: hidden;
+  font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li, .navLink {
+  float: left;
+  margin: 10px; 
+}
+
+li a .navtitle {
+  display: block;
+  padding: 8px;
+
+}
+
+
+/* LOGO */
+.logoImage {
+  width: 70%;
+}
+
+.background {
+  background-image: url("./old_map.png");
+  background-repeat: no-repeat;
+  background-size: 870%;
+  background-position: center center;
+  margin: auto;
+  width: 78%;
+}
+
+.tagline, .tagline2 {
+  font-weight: bold;
+}
+
+.tagline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: #353535; 
+}
+
+.subTitle {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px;
+  color: #353535;
+  padding-bottom: 10px; 
+}
+
+.topHat  {
+  width: 8%;
+}
+
+.floppyhat {
+  width: 12%;
+}
+
+.ether {
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+   border-bottom-width: 80%;
+}
+
+.ether1, .ether2 {
+  margin: 0px; 
+}
+
+
+/* TICKED IMAGES */
+.ticket {
+  width: 40%;
+  margin-top: 15px;
+  margin-bottom: 20px; 
+}
+
+.ticketImages {
+  margin: 15px;
+}
+
+.rowTickets {
+  margin-bottom: 5%;
+}
+
+.movieReel {
+  width: 30px;
+}
+
+.ropebarrier {
+  width: 45px;
+}
+
+.explainTicket, .ticketmaster, .lobbyTicket {
+  width: 35%;
+}
+
+.flashlight {
+  width: 30px;
+}
+
+/*HEADERS*/
+
+.header1 {
+  border-bottom: 3px solid black;
+}
+
+.bottomheader1,
+.header1 {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.moviemaster {
+  margin-top: 25px;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pastgames {
+  font-size: 14px;
+  margin-bottom: 0;
 }
+
+.movies {
+  vertical-align: bottom;
+}
+
+.topHatNav {
+  /* width: 10%; */
+}
+
+.topHatHeader {
+  /* width: 10%; */
+  max-width: 25px;
+  margin: 5px 0 0 5px;
+}
+
+.topHatbottom {
+  /* width: 8%; */
+}
+
+.clock {
+  width: 18px;
+  margin: 5px;
+}
+
+.logoImageHeader {
+  /* width: 40%; */
+  max-width: 150px;
+}
+
+.noticeslisting {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.boxnotices {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.moviemaster-container {
+  display: flex;
+  align-items: center;
+}
+
+.pastgames-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkmein-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.check-icon {
+  max-width: 35px;
+  margin: 5px;
+}
+
+.research-icon {
+  max-width: 30px;
+}
+
+.research-input {
+  width: 100px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+/* Sticky Top
+.header1 {
+  border: 4px solid green;
+  /*position: fixed;*/
+  /*top: 0;
+  width: 100%;
+}*/
+
+/* BORDER */
+
+
+/* TRADEMARK */
+.trademark {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.copyright {
+ border-top: 3px solid black;
+ padding-top: 15px; 
+ 
+}
+
+
