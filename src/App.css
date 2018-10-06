@@ -73,7 +73,13 @@ li a .navtitle {
 }
 
 .floppyhat {
-  width: 12%;
+  width: 0%;
+}
+
+.floppyhatHeader {
+  /* width: 10%; */
+  max-width: 25px;
+  margin: 5px 0 0 5px;
 }
 
 .ether {
@@ -146,9 +152,7 @@ li a .navtitle {
   vertical-align: bottom;
 }
 
-.topHatNav {
-  /* width: 10%; */
-}
+
 
 .topHatHeader {
   /* width: 10%; */
@@ -156,9 +160,7 @@ li a .navtitle {
   margin: 5px 0 0 5px;
 }
 
-.topHatbottom {
-  /* width: 8%; */
-}
+
 
 .clock {
   width: 18px;

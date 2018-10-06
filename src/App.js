@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Animated} from "react-animated-css";
 
 class App extends Component {
   render() {
@@ -13,10 +13,20 @@ class App extends Component {
       </div>
       </div>
 
+      <div className="testanimate">
+      
+      <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        <div>
+        hello world ;)
+        </div>
+      </Animated>
+      
+      </div>
+
       <div className="row background">
         <div className="col-md-1"></div>
         <div className="col-md-10 tags text-center">
-          <p className="tagline"><img className="topHat" src="topHat.png" alt="Top Hat"></img> Lights! Camera! Cha-Ching! <img className="floppyhat" src="asset 2.png" alt="Hat"></img></p>
+          <p className="tagline"><img className="topHat" src="topHat.png" alt="Top Hat"></img> Lights! Camera! Cha-Ching! <img className="floppyhatheader" src="asset 2.png" alt="Hat"></img></p>
           <p className="subTitle">The new box office predicaton game where YOU are the MovieMaster</p>
         </div>
         <div className="col-md-1"></div>
